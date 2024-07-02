@@ -22,5 +22,11 @@ public class Main {
             System.out.println(st.name+ " = "+ st.course);
         }
         System.out.println("-----------------------------");
+        int[][] matrix = new int[][]{{1,2}, {3,4}};
+        for(int[] mat: matrix) {
+            for(int ele: mat) {
+                System.out.println(ele);
+            }
+        }
     }
 }
